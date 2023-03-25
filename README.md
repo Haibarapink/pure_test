@@ -8,8 +8,8 @@ You can include the testing framework's header file in your program and use the 
 This testing framework does not require installation, just include the header file in your test code.
 
 # Usage
-Before writing the test codes in a 'cpp' file, you need to use 'PURE_TEST_INIT();' macro, then 
-you could 'pure_report' macro, this macro won't stop the test program, it reports the imformations.
+Before writing the test codes in a 'cpp' file, you need to write the 'PURE_TEST_INIT();' macro, then 
+ 'pure_report' macro  won't stop the test program, it reports the imformations.
 'pure_assert' macro will abort the program when the condition is false. Here is an example.
 ```
 #include "pure_test.hpp"
