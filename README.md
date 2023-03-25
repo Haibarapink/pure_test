@@ -1,4 +1,4 @@
-# Introduction to Testing Frameworks
+# Introduction 
 This is a C++ testing framework for writing and running unit tests. The framework provides a set of macros for defining test cases and test assertions. A test case is a set of related tests, and a test assertion is a statement that verifies the test results.
 
 This testing framework only 107 lines.
